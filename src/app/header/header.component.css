@@ -1,0 +1,24 @@
+.head {
+  display: flex;
+  align-items: center;
+  background: #bdfef9;
+  border-bottom: 3px black solid;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #144d64;
+}
+
+.divider {
+  margin-left: 30px;
+  border-left: 2px solid black;
+  height: 50px;
+}
+
+.address {
+  margin-left: 30px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.title {
+  margin-left: 10px;
+}
