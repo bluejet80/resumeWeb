@@ -37,21 +37,28 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.back-text-intro {
+.back-text {
   position: absolute;
+  width: 95%;
+  white-space: nowrap;
+  overflow: hidden;
   top: -30px;
   font-size: 8rem;
   color: rgba(203, 246, 248, 0.25);
 }
 
-.back-text-work {
-  position: absolute;
-  white-space: nowrap;
-  top: -30px;
-  font-size: 8rem;
-  color: rgba(91, 239, 244, 0.15);
+.sec-body {
+  padding: 30px;
+  margin: 0 100px 0 50px;
 }
 
-.sec-body {
-  padding: 20px;
+@media screen and (max-width: 430px) {
+  .back-text {
+    font-size: 4rem;
+    top: 0px;
+  }
+  .sec-body {
+    padding: 10px;
+    margin: 10px 20px 0 20px;
+  }
 }

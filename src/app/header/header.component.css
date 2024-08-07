@@ -22,3 +22,17 @@
 .title {
   margin-left: 10px;
 }
+
+@media screen and (max-width: 430px) {
+  .head {
+    display: block;
+  }
+  .divider {
+    display: none;
+  }
+  .title {
+    margin-left: 20px;
+    font-size: 1.25rem;
+    border-bottom: solid black 3px;
+  }
+}
